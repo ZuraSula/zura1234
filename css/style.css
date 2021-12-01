@@ -1,0 +1,506 @@
+* {
+     box-sizing: border-box;
+}
+@font-face {
+    src: url(/Fonts/DroidSans-Bold.ttf);
+    font-family: droid;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* navbari */
+nav{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #df001f;
+    justify-content: space-between;
+    padding-bottom: 9px;
+}
+.row{
+    padding-top: 40px;
+    padding-left: 68px;
+}
+.col{
+    text-decoration: none;
+    color: #fff;    
+    padding-right: 40px;
+    font-family: droid-sans,sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+}
+.capture-1{
+    padding-top: 12px;
+}
+.img-1 {
+    height: 76px;
+}
+.logos-1{
+    display: flex;
+}
+.logos-1 div{
+    display: inline-block;
+}
+.logos-1 p{
+    display:inline-block;
+}
+.purchase-ticket a{
+    display: inline-block;
+    color: #df001f;
+    text-decoration: none;
+    background-color: #fff;
+}
+.forpad{
+    padding-left: 28px;
+    padding-top: 39px;
+}
+.forpad a img{
+    padding-left: 19px;
+}
+.spanps{
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.spanps{
+    padding-top: 41px;
+    padding-left: 20px;
+}
+.purchase-ticket{
+    display:block;
+    margin-top: 25px;
+    padding-left: 56px;
+    padding-right: 50px;
+}
+.purchase-ticket a{
+    border-radius: 30px;
+    padding: 16px 44px 16px 44px;
+    font-family: droid-sans,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #df001f; 
+}
+/* navbari */
+
+/* Surati da teqsti */
+.coverpic{
+    width: 100%;
+}
+.headercover{
+    position:relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headercover img{
+    border-bottom: 3px solid #df001f;
+}
+.imgimgi{
+    width: 100%;
+}
+.text__2 a{
+    position: absolute;
+    font-size: 116px;
+    font-family: 'Oswald', sans-serif;
+    color: #df001f;
+    font-weight: 800;
+    text-decoration: none;
+    top: 22%;
+    left: 36%;
+}
+.text__22 a{
+    position: absolute;
+    font-size: 80px;
+    font-family: 'Great Vibes', cursive;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    top: 41%;
+    left: 39%;
+    font-size: 80px;
+    line-height: 161px;
+    color: #333333;
+    font-weight: 400;
+    text-align: center;
+}
+.discover a{
+    display: inline-block;
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: droid-sans,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    background-color: #df001f;
+    text-decoration: none;
+    top: 68%;
+    left: 44%;
+    transform: translate(-50% -50%);
+    border-radius: 30px;
+    padding: 16px 44px 16px 44px;
+}
+/* Surati da teqsti */
+/* seqcia */
+.container{
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
+}
+.intro{
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 550;
+    font-family: "Oswald";
+    padding-top: 56px;
+    padding-bottom: 12px;
+}
+.intro__2{
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 0;
+    color: #df001f;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-right: 17px;
+}
+.button__1, .button__2{
+    padding-left: 4px;
+}
+.button__1 a{
+    text-decoration: none;
+    background-color: #df001f;
+    color: #fff;
+    padding: 1em;
+    font-weight: 900;
+}
+.button__2 a{
+    text-decoration: none;
+    background-color: #df001f;
+    color: #fff;
+    padding: 1em;
+    font-weight: 900;
+}
+
+
+.card__1{
+    width: 33.3333%;
+    padding: 20px 15px 20px 0;
+   
+}
+.image__001 img{
+    display: block;
+    width: 100%;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+}
+.text__001{
+    width: 100%;
+    background-color: #df001f ;
+    padding:.5em;
+}
+
+.jonen{
+    color: #fff;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 800;
+    font-family: "Oswald";
+}
+.covals{
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    font-family: "Oswald";
+    letter-spacing: 1px;
+}
+.cards_sect1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social__logo{
+    display: flex;
+    color: #fff;
+}
+.social__logo a img{
+    padding-top: 12px;
+    padding-right: 12px;
+}
+.logos__198{
+    display: flex;
+    padding-left: 12px;
+}
+.logos__198 div{
+    padding-left: 12px;
+}
+.odinguitarist{
+    display: inline-block;
+    height: 12px;
+}
+
+/* cards__200 */
+.cards__200{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card{
+    width: 33.3333%;
+}
+.card-img-top {
+    width: 100%;
+    height: 290px;
+    background-size: cover;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #df001f;
+    color: #fff;
+}
+/* cards__200 */
+/* cards__300 */
+.card__300{
+    width: 33.3333%;
+    position: relative;
+}
+.image__300{
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    height: 20rem;
+    padding-right: 15px;
+    
+}
+.text__300{
+    background-color: #df001f;
+    padding: 0;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    z-index: 10;
+    padding: 12px;
+    width: 96%;
+
+}
+.text__300 p{
+    color: #fff;
+    padding: 0;
+
+}
+.jonen , .covals{
+    text-decoration: none;
+}
+.covals{
+    display: block;
+    font-family: "Oswald";
+}
+.cards__300{
+    display: flex;
+    padding-bottom: 138px;
+}
+.cons__300 a{
+    display: block;
+}
+.text__300_1{
+    background-color: #df001f;
+    padding: 0;
+    position: absolute;
+    top: 67%;
+    left: 0%;
+    z-index: 10;
+    padding: 12px;
+    width: 96%;
+}
+.icons__300__atag{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 12px;
+}
+.icons__300__atag img{
+    padding-right: 12px;
+}
+/* cards__300 */
+/* cards__400 */
+.card__400_headtext{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.latestvideos{
+    padding-right: 16rem;
+
+}
+.cards__400{
+    position: relative;
+}
+.text__13{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Oswald";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 29%;
+    left: 11rem;
+}
+.text__jan{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Oswald";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 10.5rem;
+}
+.card_400flex {
+    display: flex;
+    width: 60%;
+    max-width: 100%;
+    padding-right: 47rem;
+}
+.card_400maintext {
+    padding: 12px;
+}
+.headtext__400{
+    font-size: 19px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 800;
+    font-family: "Oswald";  
+}
+.other_400{
+    width: 367px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 400;
+    font-family: droid-sans,sans-serif;
+}
+.ticket__400{
+    background-color: #df001f;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 50px; 
+}
+.ticket__400 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 19px; 
+}
+.piano__button {
+    display: inline-block;
+    background-color: red;
+    padding: 12px 18px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 12em;
+    left: 14em;
+}
+.bi{
+    font-size: 20px;
+}
+.section__display{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20rem;
+}
+.pinao__man__div {
+    width: 40%;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.img__pino__man__1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.piano__button a{
+    color: #fff;
+    text-decoration: red;
+}
+.piano__man{
+    width: 100%;
+}
+.pianino112{
+    width: 40%;
+    height: 350px;
+    max-width: 100%;
+}
+/* cards__400 */
+/* seqcia */
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:843px){
+    nav{
+        display: inline-block;
+        max-width: 100%;
+        width: 100%;
+    }
+    .row{   
+        padding-top: 2em;
+        text-align: center;
+    }
+    .col{
+        
+        text-decoration: none;
+        color: #fff;    
+        font-family: droid-sans,sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .img-1 {
+        display: block;
+        width: 15%;
+        margin: auto;
+    }
+    .logos-1 {
+        display: block;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .forpad{
+        padding: 0;
+        display:block;
+        margin: auto;
+    }
+}
+@media all and (max-width:353px){
+    .capture-1{
+        display: none;
+    }
+
+
+}
