@@ -434,6 +434,7 @@ nav{
 .img__pino__man__1 {
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 .piano__button a{
     color: #fff;
